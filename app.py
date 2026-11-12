@@ -19,12 +19,13 @@ print(data[0])
 
 a = []
 x = input("What language would you like:")
-if x == English:
+if x == "English":
     a.append()
-if x == Japanese:
+if x == "Japanese":
     a.append()
-if x == Chinese:
+if x == "Chinese":
     a.append()
 
+y = input("")
 y = input("What Pokemon:")
 a.append(items.json["name"][choice])
